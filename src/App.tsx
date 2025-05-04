@@ -26,7 +26,7 @@ function App() {
           <button onClick={() => setCount(count + 1)}>+</button>
           <button onClick={() => setCount(count - 1)}>-</button>
 
-          <h3>Message form api: {messageFromApi}</h3>
+          <h3>Message from api: {messageFromApi}</h3>
       </>
   )
 }
