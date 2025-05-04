@@ -8,8 +8,11 @@ function App() {
   return (
       <>
           <Azure />
-          <button onClick={() => setCount(count + 1)}/>
-          <button onClick={() => setCount(count - 1)}/>
+
+          <h2>{count}</h2>
+
+          <button onClick={() => setCount(count + 1)}>+</button>
+          <button onClick={() => setCount(count - 1)}>-</button>
       </>
   )
 }

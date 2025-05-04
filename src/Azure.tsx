@@ -2,7 +2,7 @@ import {FC} from "react";
 
 const Azure: FC = () => {
     return (
-        <div>Hello AZURE</div>
+        <h1>Hello AZURE</h1>
     );
 };
 
