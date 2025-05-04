@@ -8,9 +8,9 @@ function App() {
     const [messageFromApi, setMessageFromApi] = useState<string>('');
     const fetchMessage = async () => {
         const response = await fetch('https://test-api-123456.azurewebsites.net/message');
-        const data = await response.json();
+        const data = await response.text();
 
-        setMessageFromApi(data.message);
+        setMessageFromApi(data);
     };
 
     useEffect(() => {
